@@ -1,0 +1,20 @@
+﻿body {
+    color: #333;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    font-size: .75em;
+}
+
+h1 {
+    border-bottom: 1px dashed #cdcdcd;
+    width: 30%;
+    margin: 25px 0px 30px 0px;
+}
+
+textarea, img {
+    margin: 10px 0px; 
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+}

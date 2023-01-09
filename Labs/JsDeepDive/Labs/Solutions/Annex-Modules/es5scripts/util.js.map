@@ -1,0 +1,1 @@
+{"version":3,"file":"util.js","names":["Util","n"],"sources":["Solutions/Annex-Modules/es6scripts/util.js"],"sourcesContent":["export default class Util {\r\n    static pad(n) {\r\n        return (n < 10) ? (`0${n}`) : n;\r\n    }\r\n}\r\n"],"mappings":";;;;;;;;;;;;;IAAqBA,I;;;;;;;WACjB,aAAWC,CAAX,EAAc;MACV,OAAQA,CAAC,GAAG,EAAL,cAAgBA,CAAhB,IAAuBA,CAA9B;IACH"}

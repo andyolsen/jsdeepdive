@@ -1,0 +1,33 @@
+﻿body {
+    color: #333;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    font-size: .75em;
+}
+
+h1 {
+    border-bottom: 1px dashed #cdcdcd;
+    width: 30%;
+    margin: 25px 0px 30px 0px;
+}
+
+label {
+    display: inline-block;
+    width: 12em;
+}
+
+input {
+    margin-right: 5px;
+    border: 1px solid #cdcdcd;
+}
+
+fieldset {
+    width: 400px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid #2222ff;
+    background-color: #eeeeff;
+}
+
+legend {
+    font-weight: bold;
+}

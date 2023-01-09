@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Manager</title>
+	<script src="es5scripts/script.js"></script>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body id="main">
+
+<h1>Product suggestions</h1>
+
+<h3>Enter a product suggestion</h3>
+<div id="productDetail">
+    <p>
+        <label for="id">ID: </label>
+        <input id="id" type="text">
+        <button id="get">Get</button>
+    </p>
+
+    <p>
+        <label for="description">Product description: </label>
+        <input id="description" type="text">
+    </p>
+	
+    <p>
+        <label for="tags">Tags: </label>
+        <input id="tags" type="text">
+    </p>
+
+    <p>
+        <label for="email">Your e-mail address: </label>
+        <input id="email" type="email">
+    </p>
+
+    <p>
+        <label for="price">Recommended price: </label>
+        <input id="price" type="number">
+    </p>
+
+    <p>
+        <label for="sales">Estimated sales/year: </label>
+        <input id="sales" type="number">
+    </p>
+
+    <p>
+        <label for="lastUpdated">Last updated: </label>
+        <input id="lastUpdated" type="text" readonly disabled>
+    </p>
+	
+    <p>
+         <button id="insert">Insert</button>
+         <button id="update">Update</button>
+         <button id="delete">Delete</button>
+    </p>
+
+	<p>
+		<span id="messageArea"></span>
+	</p>
+	
+</div>
+
+<fieldset id="allProductSuggestions">
+    <legend>All product suggestions</legend>
+    <div id="allProductsList"></div>
+</fieldset>
+
+<fieldset id="taggedProductSuggestions">
+    <legend>Tagged product suggestions</legend>
+    <div id="tagArea"></div>
+	<div id="taggedProductsList"></div>
+</fieldset>
+
+</body>
+</html>

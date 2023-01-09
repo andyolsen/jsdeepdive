@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>APIs</title>
+	<script src="es5scripts/script.js"></script>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body id="main">
+
+<h1>APIs lab - solution</h1>
+
+<h3>Enter credit card details</h3>
+<div>
+    <p>
+        <label for="amount">Amount: </label>
+        <input id="amount" type="text" placeholder="Amount in GBP">
+		<span id="amountValid" class="valid"></span>
+		<span id="amountError" class="error"></span>
+    </p>
+
+    <p>
+        <label for="name">Name: </label>
+        <input id="name" type="text" placeholder="Name as appears on card">
+		<span id="nameValid" class="valid"></span>
+		<span id="nameError" class="error"></span>
+    </p>
+
+    <p>
+        <label for="cardNumber">Credit card number: </label>
+        <input id="cardNumber" type="text" placeholder="16 digit number">
+		<span id="cardNumberValid" class="valid"></span>
+		<span id="cardNumberError" class="error"></span>
+    </p>
+
+    <p>
+        <label for="expiryDate">Expiry date: </label>
+        <input id="expiryDate" type="text" placeholder="mmyy format">
+		<span id="expiryDateValid" class="valid"></span>
+		<span id="expiryDateError" class="error"></span>
+    </p>
+
+    <p>
+        <label for="cvv">CVV number: </label>
+        <input id="cvv" type="text" placeholder="3 digit number">
+		<span id="cvvValid" class="valid"></span>
+		<span id="cvvError" class="error"></span>
+    </p>
+
+    <p>
+        <button id="submit">Submit</button>
+    </p>
+</div>
+
+</body>
+</html>
